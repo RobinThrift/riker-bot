@@ -1,0 +1,14 @@
+# node.js
+node_modules
+npm-debug.log
+
+# dist
+native/index.ios.js.map
+native/index.ios.js
+native/ios/main.jsbundle
+
+# editor
+.idea
+
+# Project
+dist

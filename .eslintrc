@@ -1,0 +1,24 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+        "mocha": 1
+    },
+    "rules": {
+        "consistent-return": 0,
+        "func-names": 0,
+        "comma-dangle": [2, "never"],
+        "id-length": 0,
+        "indent": [2, 4, {"SwitchCase": 1}],
+        "no-bitwise": 1,
+        "no-multi-spaces": [2, {
+            "exceptions": {
+                "VariableDeclarator": true
+            }
+        }],
+        "prefer-const": 0
+    },
+    "plugins": [
+        "babel"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "riker-bot",
+  "version": "1.0.0",
+  "description": "Periocdic wisdom from your second in command",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RobinThrift/riker-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Robin Thrift <services@robinthrift.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinThrift/riker-bot/issues"
+  },
+  "homepage": "https://github.com/RobinThrift/riker-bot#readme",
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-eslint": "^4.1.5",
+    "babel-plugin-transform-runtime": "^6.4.3",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-3": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "chai": "^3.4.1",
+    "del": "^2.1.0",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.9.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-mocha": "^2.2.0",
+    "yargs": "^3.30.0"
+  },
+  "dependencies": {
+    "@slack/client": "^2.3.0",
+    "lodash": "^4.0.1",
+    "require-dir": "^0.3.0",
+    "schedule": "^0.1.0",
+    "yargs": "^3.32.0"
+  }
+}
