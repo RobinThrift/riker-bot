@@ -43,9 +43,10 @@
   },
   "dependencies": {
     "@slack/client": "^2.3.0",
+    "cron": "^1.1.0",
+    "jpickle": "^0.4.1",
     "lodash": "^4.0.1",
     "require-dir": "^0.3.0",
-    "schedule": "^0.1.0",
     "yargs": "^3.32.0"
   }
 }
